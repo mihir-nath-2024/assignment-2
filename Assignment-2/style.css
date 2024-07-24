@@ -1,0 +1,610 @@
+.inter-font {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0;
+  }
+  /* section background */
+ 
+  section{
+    background-color: black;
+    color: #FFFFFF;
+   
+  }
+  nav{
+    background-color: black;
+  }
+ 
+ 
+ /* Buttton Styling */
+  .btn-primary{
+ width: 186px;
+    border-radius: 46px;
+    padding: 15px;
+    background-color: #E6533C;
+    
+    font-weight: 600;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 1.1rem;
+   
+}
+.btn-secondary{
+    width: 186px;
+    border-radius: 46px;
+    padding: 15px;
+    background-color: black;
+   
+    
+}
+.btn-350{
+    width: 168px;
+    height: 75px;
+  position: relative;
+  left: 28%;
+  top: 75%;
+  border-radius: 10px;
+
+  
+}
+.btn-500{
+    width: 168px;
+    height: 75px;
+    position: relative;
+    left: 50%;
+    top: 25%;
+    border-radius: 10px; 
+   
+}
+.banner-button h2,p{
+    margin: 0;
+}
+
+
+
+
+/* Experimental */
+
+
+  /* navbar Styling */
+
+.nav-container{
+    display: flex;   
+    justify-content: space-between;
+    align-items: center;
+    /* margin: 3.5rem 11.88rem auto 11.88rem */
+   width: 74vw;
+    margin:3.5rem auto auto auto;
+}
+.nav-container ul{
+    display: flex;
+    align-items: center;
+    border: 1px solid gray;
+    padding-left: 2px;
+    padding-right: 2px;
+    border-radius: 46px;
+    
+}
+.nav-container li,a{
+    text-decoration: none;
+    
+    list-style: none;
+    font-size: 1.12rem;
+    font-weight: 400; 
+    color: #FFFFFF;
+    text-align: center;
+    /* margin-left: 20px; */
+   
+   
+}
+.nav-container img{
+    display: none;
+}
+.list-margin{
+    margin-left: 20px;
+}
+
+.nav-container h3{
+    font-style: italic;
+    font-weight: 800;
+    font-size: 2.25rem;
+    color: #E6533C;
+    ;
+}
+.btn-nav{
+    max-width: 92px;
+    /* height: 38px; */
+    background-color: #E6533C;
+    border-radius: 46px;
+    font-weight: 600;
+    font-size: 1.12rem;
+    text-align: center;
+    padding: 5%;
+}
+/* banner-section-design */
+.banner-contents{
+    display: flex;
+        width: 73vw;
+    height: 73vh;
+    
+    
+    margin: 0 auto;
+    justify-content: space-between;
+    background-image: url(./images/Images2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position:bottom right ;
+    background-color: black;
+    padding: 5%;
+    
+}
+.banner-contents h1{
+    font-size: 5rem;
+    color: #FFFFFF;
+    margin-bottom: 5%;
+}
+.banner-contents p{
+    margin-bottom: 5%;
+
+}
+.banner-heading, .banner-button{
+    width: 36.5vw;
+    height: 73vh;
+   
+    /* background-color: aquamarine; */
+        
+}
+/* .banner-button{
+    display: grid;
+    grid-template-columns: 50% 50%;
+} */
+
+
+/* change-section-styling */
+.change-div{
+    width: 73vw;
+    /* bg color just for experiment */
+    background-color: black;  
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    
+
+}
+.change-header{
+    text-align: center;
+       width: 46.59vw;
+    padding: 0%;
+    margin: 8% auto;
+}
+.change-header h1{
+    font-size: 3rem ;
+    font-weight: bold;
+    color: #FFFFFF;
+    margin: 0;
+}
+.change-header p{
+    margin-top: 1.5rem;
+    font-size: .85rem;
+}
+/* .change-card-container{
+    
+    display: flex;
+    align-content: center;
+    width: 100%;
+    margin: 0 auto;
+} */
+.change-card-container {
+   display: grid;
+   grid-template-columns: repeat(4,1fr);
+   margin-top: 30px;
+}
+.change-card h5{
+    font-size: 1.12rem;
+    font-weight: 600;
+    color: #FFFFFF;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+.change-card p{
+    font-size: .85rem;
+    font-weight: 400;
+    color: #FFFFFF;
+    text-align: center;
+    margin: 0;
+}
+.change-card img{
+    border-radius: 0 15% 0 15%;
+    
+}
+.run-div{
+    width: 73vw;
+    margin: 5vh auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: blanchedalmond;
+    border-radius: 15PX;
+    padding: 2%;
+    background-color: aqua;
+}
+.run-div p{
+    margin-top: 0;
+    margin-bottom: 3%;
+}
+
+
+ .run-img img{
+    /* width: 250px;
+    height: 250px; */
+    border-radius: 15PX;
+   max-width: 355px;
+   height: 330px
+    ;
+ }
+
+ .run-heading h1{
+    font-size: 2.8rem;
+    font-weight: 600;
+ }
+ 
+ /* calculator section */
+
+ .calculator-div{
+    width: 50vw;
+    margin: 15vh auto;
+    text-align: left;
+    color: #FFFFFF;
+    background-color: black;
+ }
+ .calculator-div>h1{
+    font-size: 2.8rem;
+    font-weight: bold;
+    margin: 0;
+ }
+ .calculator-div p{
+    font-size: .9rem;
+
+ }
+ 
+ /* chart section */
+ .chart-div{
+    display: flex;
+    justify-content: space-between;
+    width: 73vw;
+    margin: 5vh auto;
+ }
+ .chart-table, .calc-bmi{
+    width: 50%;
+ }
+ form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+ }
+
+ #form-activity{
+    grid-column: span 2;
+ }
+
+input{
+    padding-left: 1vw;
+    padding-top: .5vw;
+    padding-bottom: .5vw;
+   border-radius: 5px;
+}
+.chart-div .btn-primary{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+/* link section styling */
+.link{
+    background-color: black;
+}
+.link-div{
+    /* display: grid;
+    grid-template-columns: repeat(3, 50% 25% 25%); */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 73vw;
+    margin: 5vh auto;
+    background-color:black;
+}
+.link li,a{
+    text-decoration: none;
+    list-style: none;
+    margin-left: 0%;
+}
+.link h1{
+    font-size: 5rem;
+    text-align: left;
+    margin-bottom: 1%;
+    color: #E6533C;
+    font-style: italic;
+    font-weight: 700;
+    
+}
+.link ul{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.link p{
+    margin-bottom: 15%;
+}
+
+/* Team section styling */
+
+.parent-trainer h1{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 800;
+    margin-bottom: 5%;
+}
+.parent-trainer p{
+    text-align: center;
+    margin: 0;
+
+}
+.parent-trainer{
+    display: flex;
+    flex-direction: column;
+}
+.trainer-heading{
+    margin: 7% auto;
+}
+
+.trainer-container{
+    
+   max-width: 1050px;
+    
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+   row-gap: 15px;
+    column-gap: 15px;
+  
+    background-color: cadetblue;
+    padding: 1.5%;
+    border-radius: 15px;
+}
+.trainer-1, .trainer-3, .trainer-5{
+    background-color: brown;
+}
+.trainer-2, .trainer-4, .trainer-6{
+    background-color: darkcyan;
+}
+.trainer{
+    width: 340px;
+    height: 320px;
+    background-repeat: no-repeat;
+   background-size: cover;
+    
+    border-radius: 5%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    color: #FFFFFF;
+    
+}
+.trainer h1{
+    margin-bottom: 0%;
+    
+}
+.trainer-info h3{
+    margin: 0;
+    font-size: 1.2rem;
+    
+    
+}
+.trainer-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    bottom: 5%;
+
+}
+
+   
+   
+
+.trainer-1{
+    background-image: url(./images/trainer1.png);}
+.trainer-2{
+    background-image: url(./images/trainer2.png);
+}
+.trainer-3{
+    background-image: url(./images/trainer3.png);
+}
+.trainer-4{
+    background-image: url(./images/trainer4.png);
+}
+.trainer-5{
+    background-image: url(./images/trainer5.png);
+    
+}
+.trainer-6{
+    background-image: url(./images/trainer6.png);
+}
+.trainer-info{
+    margin-left: 5%;
+    
+}
+footer{
+    text-align: center;
+    background-color:black ;
+}
+    
+  /* responsive Styling */
+
+
+  @media screen and (max-width:576px){
+    
+    /* button section */
+    .btn-primary a{
+        font-size: 1rem;
+        font-weight: 800;}
+    .btn-secondary a{
+        font-size: 1rem;
+        font-weight: 800;
+        
+    }
+
+    /* nav bar section */
+    .nav-container{
+        display: flex;
+        justify-content: space-between 66mnhy7;
+    }
+    .nav-container img{
+       display: block;
+    }
+    .nav-container ul{
+        display: none;
+    }
+
+    /* banner section */
+    
+    .banner-contents{
+        display: flex;
+        flex-direction: column;
+        background-size: contain;
+    background-position: bottom center;
+    margin: 0 auto;
+    width: auto;
+    height: auto;
+    }
+    .banner-heading, .banner-button {
+        width: auto;
+        /* height: 73vh; */
+
+    }
+    .banner-heading h1{
+        font-size: 2.9rem
+    
+    }
+    .banner-btn-container{
+        display: flex;
+        margin-top: 10px;
+        
+    }
+    .btn-primary{
+        margin-right: 10px;
+    }
+    .btn-350{
+        max-width: 168px;
+        height: 75px;
+        position: relative;
+        border-radius: 10px;
+        left: 5%;
+        top: 35%;
+    }
+    .btn-500{
+        max-width: 168px;
+        height: 75px;
+        position: relative;
+        left:15%;
+        top: -20%;    
+    }    
+
+    .change-card-container{
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+    }
+    .run-div{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+       
+       
+
+    }
+    .run-div .btn-primary{
+        margin: 0 auto;
+    }
+    .run-heading{
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        
+    }
+    .run-div .btn-primary{
+        margin: 10% auto ;
+        width: 67vw;
+      
+
+    }
+    
+    
+
+
+    /* Team section Styling */
+    .trainer-container{
+        max-width: 1050px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr;
+        row-gap: 15px; 
+        padding:15px;
+        border-radius: 15px;
+        background-color: black
+
+    }
+    .trainer{
+        max-width: 340px;
+        height: 320px;
+    }
+
+    /* calculator section */
+    .chart-div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 73vw;
+        margin: 5vh auto;
+    }
+    .chart-table, .calc-bmi{
+        width: auto;
+    }
+    .calculator-div{
+        margin: 5vh 5vw;
+        text-align: left;
+        color: #FFFFFF;
+        background-color: black;
+        width: auto;
+    }
+    .calculator-div h1{
+        font-size: 2.7rem;
+    }
+    .link-div{
+        display: flex;
+        flex-direction: column;
+       align-items: flex-start;
+       justify-content: flex-start;
+       text-align: left;
+    }
+    .link-div {
+        text-align: left;
+    }
+    .link-div ul {
+        list-style-type: none;
+        padding: 0;
+    }
+    .link-div ul li {
+        margin: 5px 0;
+    }
+
+
+
+}
+
+    
+   
